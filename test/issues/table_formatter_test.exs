@@ -3,6 +3,11 @@ defmodule Issues.TableFormatterTest do
   import ExUnit.CaptureIO # And allow us to capture stuff sent to stdout
   alias Issues.TableFormatter, as: TF
 
+  # this line runs the @doc text examples and checks the specified ouput
+  # ie: the lines that have iex code blocks and the output specified below them
+  # are asserted on automatically
+  doctest Issues.TableFormatter
+
 
   def simple_test_data do
     [

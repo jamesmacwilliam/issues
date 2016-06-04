@@ -3,6 +3,9 @@
 **TODO: Add description**
 
 ## Installation
+- mix deps.get
+- run with `./issues <git-user> <git-project> <count-issues-to-return>`
+- ie: `./issues elixir-lang elixir 3`
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
